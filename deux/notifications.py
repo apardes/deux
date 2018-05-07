@@ -1,7 +1,7 @@
 from __future__ import absolute_import, unicode_literals
 
 from twilio.rest import TwilioRestClient
-from twilio import TwilioRestException
+from twilio.base.exceptions import TwilioRestException
 
 from deux import strings
 from deux.app_settings import mfa_settings
